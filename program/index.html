@@ -13,6 +13,37 @@
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Conference">
     <title>III Congreso Geoestadística y Estadística Espacio-Temporal: Teoría y Aplicaciones</title>
+    <style>
+        .top-left {
+            position: absolute;
+            top: 10%; /* Ajuste este valor como sea necesario */
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff; /* o cualquier color que prefiera */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0); /* Sombra para mejorar la legibilidad */
+            text-align: center;
+            width: 100%; /* Puede ajustar este valor o eliminarlo si no es necesario */
+        }
+        
+        .top-left .title1 {
+            font-size: 1.5rem; /* Cambiar al tamaño de fuente deseado */
+            background-color: rgba(0,0,0,0); /* Fondo semi-transparente */
+            padding: 10px;
+            display: inline; /* Asegúrese de que el fondo se ajuste al contenido del texto */
+        }
+
+        .banner, .banner::before, .banner::after, .container::before, .container::after {
+            border: none; /* Elimina los bordes */
+            background: none; /* Elimina los fondos */
+            box-shadow: none; /* Elimina las sombras de caja */
+        }
+        
+        /* Esconde explícitamente cualquier pseudo-elemento que pueda estar añadiendo la franja */
+        .banner::before, .banner::after, .container::before, .container::after {
+            content: none;
+        }
+        /* Asegúrese de no tener estilos contradictorios en main.css que puedan estar afectando el diseño */
+    </style>
 </head>
 
 <body>
@@ -20,10 +51,10 @@
     <div class="banner">
         <img src="assets/usm_view.jpg" alt="Conference Template Banner">
         <div class="top-left">
-            <span class="title1">EcoStat</span> <span class="year">2022</span>
+            <span class="title1">III Congreso Geoestadística y Estadística Espacio-Temporal: Teoría y Aplicaciones</span>
         </div>
         <div class="bottom-right">
-            November 27-29, 2022 <br> UTFSM, Valparaíso, Chile.
+            November 27-29, 2024 <br> UTFSM, Valparaíso, Chile.
         </div>
     </div>
 
