@@ -29,7 +29,14 @@
             display: inline; /* Asegúrese de que el fondo se ajuste al contenido del texto */
         }
 
-        .banner::before, .banner::after {
+        .banner, .banner::before, .banner::after, .container::before, .container::after {
+            border: none; /* Elimina los bordes */
+            background: none; /* Elimina los fondos */
+            box-shadow: none; /* Elimina las sombras de caja */
+        }
+        
+        /* Esconde explícitamente cualquier pseudo-elemento que pueda estar añadiendo la franja */
+        .banner::before, .banner::after, .container::before, .container::after {
             content: none;
         }
         /* Asegúrese de no tener estilos contradictorios en main.css que puedan estar afectando el diseño */
