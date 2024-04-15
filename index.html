@@ -4,32 +4,37 @@
 <head>
     <base href=".">
     <link rel="shortcut icon" type="image/png" href="assets/ac3e-logo-small.png"/>
+    <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
     <meta name="description" content="III Congreso Geoestadística y Estadística Espacio-Temporal: Teoría y Aplicaciones">
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Conference">
     <title>III Congreso Geoestadística y Estadística Espacio-Temporal: Teoría y Aplicaciones</title>
     <style>
-        .top-left .title1 {
-            font-size: 24px; /* Disminuir el tamaño de la fuente según sea necesario */
-            color: white; /* Cambiar el color para mejorar la legibilidad */
-            text-shadow: 2px 2px 4px #000000; /* Sombra de texto para mejorar la legibilidad */
-            background-color: rgba(0, 0, 0, 0.5); /* Fondo semi-transparente para el texto */
-            padding: 10px; /* Espaciado alrededor del texto */
-            display: inline-block; /* Hacer que el fondo se ajuste al texto */
-            margin: 0 auto; /* Centrado horizontal */
-            position: relative; /* Posicionamiento relativo para ajustes finos */
-            top: 20px; /* Ajuste fino de la posición vertical */
-            left: -50%; /* Ajuste fino de la posición horizontal */
-            transform: translateX(50%); /* Centrar respecto al punto ajustado con left */
+        .top-left {
+            position: absolute;
+            top: 10%; /* Ajuste este valor como sea necesario */
+            left: 50%;
+            transform: translate(-50%, -50%);
+            color: #fff; /* o cualquier color que prefiera */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.5); /* Sombra para mejorar la legibilidad */
+            text-align: center;
+            width: 100%; /* Puede ajustar este valor o eliminarlo si no es necesario */
         }
         
-        /* Asegúrate de incluir estilos para .bottom-right si es necesario */
-
-        /* Estilos adicionales para la clase .banner si es necesario */
-        .banner {
-            position: relative; /* Si no está ya definido */
+        .top-left .title1 {
+            font-size: 1.5rem; /* Cambiar al tamaño de fuente deseado */
+            background-color: rgba(0,0,0,0.5); /* Fondo semi-transparente */
+            padding: 10px;
+            display: inline; /* Asegúrese de que el fondo se ajuste al contenido del texto */
         }
+        
+        .top-left .year {
+            display: block; /* Coloca el año en una nueva línea */
+            font-size: 1.2rem; /* Tamaño de fuente para el año */
+        }
+
+        /* Asegúrese de no tener estilos contradictorios en main.css que puedan estar afectando el diseño */
     </style>
 </head>
 
