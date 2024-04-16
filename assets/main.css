@@ -89,7 +89,7 @@ th,td{
     padding: 27px 0px 0px 27px; /* padding ordenado como top, right, bottom, left */
     text-align: left;
     position: absolute;
-    top: 0px; /* Coloca el elemento en la parte superior */
+    top: 20px; /* Coloca el elemento en la parte superior */
     left: 0px; /* Coloca el elemento en la izquierda */
     text-shadow: 0px 0px 6px #000000;
 }
