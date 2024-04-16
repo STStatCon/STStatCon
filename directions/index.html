@@ -13,9 +13,9 @@
     <style>
         .top-left {
             position: absolute;
-            top: 10%; /* Ajuste este valor como sea necesario */
+            top: -20px; /* Ajuste este valor como sea necesario */
             left: 50%;
-            transform: translate(-50%, -50%);
+            transform: translateX(-50%);
             color: #fff; /* o cualquier color que prefiera */
             text-shadow: 2px 2px 4px rgba(0,0,0,0); /* Sombra para mejorar la legibilidad */
             text-align: center;
@@ -23,7 +23,7 @@
         }
         
         .top-left .title1 {
-            font-size: 1.5rem; /* Cambiar al tamaño de fuente deseado */
+            font-size: 2.5rem; /* Cambiar al tamaño de fuente deseado */
             background-color: rgba(0,0,0,0); /* Fondo semi-transparente */
             padding: 10px;
             display: inline; /* Asegúrese de que el fondo se ajuste al contenido del texto */
@@ -39,7 +39,11 @@
         .banner::before, .banner::after, .container::before, .container::after {
             content: none;
         }
-        /* Asegúrese de no tener estilos contradictorios en main.css que puedan estar afectando el diseño */
+
+        .banner img {
+            margin-top: 160px; /* Agrega espacio arriba de la imagen */
+        }
+        
     </style>
 </head>
 
