@@ -85,7 +85,7 @@ th,td{
     color: #f2f2f2;
     line-height: 1.5em;
     width: auto;
-    height: 30px; /* Asegúrate de que esta altura sea adecuada para el contenido */
+    height: 0px; /* Asegúrate de que esta altura sea adecuada para el contenido */
     padding: 27px 0px 0px 27px; /* padding ordenado como top, right, bottom, left */
     text-align: left;
     position: absolute;
