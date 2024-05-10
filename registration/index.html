@@ -3,31 +3,66 @@
 
 <head>
     <base href="..">
-    <link rel="shortcut icon" type="image/png" href="assets/favicon.png"/>
+    <link rel="shortcut icon" type="image/png" href="assets/ac3e-logo-small.png"/>
     <link rel="stylesheet" type="text/css" media="all" href="assets/main.css"/>
-    <meta name="description" content="Conference Template">
+    <meta name="description" content="III Congreso Geoestadística y Estadística Espacio-Temporal: Teoría y Aplicaciones">
     <meta name="resource-type" content="document">
     <meta name="distribution" content="global">
     <meta name="KeyWords" content="Conference">
-    <title>Registration | Conference Template</title>
+    <title>III Congreso Geoestadística y Estadística Espacio-Temporal: Teoría y Aplicaciones</title>
+    <style>
+        .top-left {
+            position: absolute;
+            top: -20px; /* Ajuste este valor como sea necesario */
+            left: 50%;
+            transform: translateX(-50%);
+            color: #fff; /* o cualquier color que prefiera */
+            text-shadow: 2px 2px 4px rgba(0,0,0,0); /* Sombra para mejorar la legibilidad */
+            text-align: center;
+            width: 100%; /* Puede ajustar este valor o eliminarlo si no es necesario */
+        }
+        
+        .top-left .title1 {
+            font-size: 2.5rem; /* Cambiar al tamaño de fuente deseado */
+            background-color: rgba(0,0,0,0); /* Fondo semi-transparente */
+            padding: 10px;
+            display: inline; /* Asegúrese de que el fondo se ajuste al contenido del texto */
+        }
+
+        .banner, .banner::before, .banner::after, .container::before, .container::after {
+            border: none; /* Elimina los bordes */
+            background: none; /* Elimina los fondos */
+            box-shadow: none; /* Elimina las sombras de caja */
+        }
+        
+        /* Esconde explícitamente cualquier pseudo-elemento que pueda estar añadiendo la franja */
+        .banner::before, .banner::after, .container::before, .container::after {
+            content: none;
+        }
+
+        .banner img {
+            margin-top: 160px; /* Agrega espacio arriba de la imagen */
+        }
+        
+    </style>
 </head>
 
 <body>
 
     <div class="banner">
-        <img src="assets/banner.jpg" alt="Conference Template Banner">
+        <img src="assets/usm_view.jpg" alt="Conference Template Banner">
         <div class="top-left">
-            <span class="title1">Conference</span><span class="title2">Template</span> <span class="year">2525</span>
+            <span class="title1">III Congreso Geoestadística y Estadística Espacio-Temporal: Teoría y Aplicaciones</span>
         </div>
-        <div class="bottom-right">
-            June 31, 2525 <br> University Name, and City Maybe
+        <div class="top-left2">
+            November 27-29, 2024 <br> USM, Valparaíso, Chile.
         </div>
     </div>
 
     <table class="navigation">
         <tr>
             <td class="navigation">
-                <a class="current" title="Conference Home Page" href=".">Home</a>
+                <a title="Conference Home Page" href=".">Home</a>
             </td>
             <td class="navigation">
                 <a title="Conference Program" href="registration">Registration</a> 
@@ -36,7 +71,7 @@
                 <a title="Conference Program" href="program">Program</a> 
             </td>
             <td class="navigation">
-                <a title="Directions to the Conference" href="directions">Directions</a>
+                <a class="current" title="Directions to the Conference" href="directions">Directions</a>
             </td>
         </tr>
     </table>
